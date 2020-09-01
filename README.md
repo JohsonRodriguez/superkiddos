@@ -1,2 +1,2 @@
 # superkiddos
-web para clases de ingles
+web para clases de ingles con javascript
