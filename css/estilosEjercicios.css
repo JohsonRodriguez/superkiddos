@@ -15,8 +15,12 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 h3{
-    color: #3C3C3C;
+    
     padding: 10px;
+    
+}
+.our{
+    font-size: 90px;
 }
 
 .contenedor{

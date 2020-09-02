@@ -1,6 +1,10 @@
 #blog h3,h4{
     text-align: center;
 }
+#blog h3{
+    font-size: 30px;
+    color: #57C48C;
+}
 #blog .contenedor {
     display: flex;
     justify-content: center;
