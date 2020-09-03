@@ -11,15 +11,16 @@
     
   <header>
       <div class="contenedor"> 
-          <img class="logo" src="img/logo.png">
+          <a href="index.html"><img class="logo" src="img/logo.png"></a>
+          
           <input type="checkbox" id="menu-bar">
           <label class="icon-menu" for="menu-bar"></label>
           <nav class="menu">
               <!-- <a href="intro.html">Ejercicios</a> -->
               
-              <a href="">Servicios</a>
-              <a href="">Blog</a>
-              <a href="contacto.html">Contacto</a>
+              <a href="#blog">Servicios</a>
+              <a href="#info">Blog</a>
+              <a href="#contact">Contacto</a>
           </nav>                 
       </div>      
 </header>
@@ -31,11 +32,11 @@
         <div class="contenedor">
         <h2>Aprendiendo jugando</h2>
         <section>La mejor manera de aprender</section>
-        <a href="#">Leer más</a>
+        <a href="#welcome">Leer más</a>
          </div>
      </section>
      
-     <section id="bienvenidos">
+     <section id="bienvenidos" id="welcome">
         <h2 class="title">Bienvenidos a nuestro sitio</h2>
          <p class="parrafo">Descubre SuperKiddos y convierte el aprendizaje de inglés y aprestamiento para niños en algo divertido.</p>
      </section>
@@ -65,7 +66,7 @@
          </div>
      </section>
      
-     <section  id="info">
+     <section  id="info" >
          <h3>Lo último de nuestro blog</h3>
          <div class="contenedor">
             <div class="info">
@@ -90,19 +91,22 @@
      
  </main>
  <footer>
-     <div class="contenedor">
+     <div class="contenedor" id="contact">
         <label id="iconos" class="icon-phone-circled" ></label>
         <p class="copy">987687508</p> <br>
+        <label for=""></label><br>
+        <!--  
         <label  id="iconos" class="icon-location" ></label>
-        <p class="copy">Calle viviaño Paredes 1157 Zona "D"</p><br>
-         <p class="copy">Desarrollado con <label class="icon-heart" ></label> por Jhonson Rodriguez</p>
+        <p class="copy">Calle viviaño Paredes 1157 Zona "D"</p><br>-->
+         <p class="copy">Desarrollado con <label class="icon-heart" ></label>por <a href="https://johsonrodriguez.com/" target="_blank">sukerjc</a>  </p>
          <div class="sociales">
-             <a class="icon-facebook-squared" href="#"></a>
-             <a class=" icon-instagram" href="#"></a>
-             <a class=" icon-twitter-squared" href="#"></a>
+             <a class="icon-facebook-squared" href="https://www.facebook.com/superkiddosperu" target="_blank"></a>
+             <a class=" icon-instagram" href="https://www.instagram.com/superkiddosperu/" target="_blank"></a>
+           <!--   <a class=" icon-twitter-squared" href="#"></a>-->
              
          </div>
      </div>
  </footer>
+ <script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"44067e0f0f5d994b2822373c3a930965"})});</script>
   </body>  
 </html>
