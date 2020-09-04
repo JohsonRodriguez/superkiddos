@@ -72,16 +72,18 @@ footer label{
 
 footer #iconos{
     color: orange;
-    font-size: 13px;
+    font-size: 16px;
 }
 .copy{
     font-size: 13px;
+    padding-right: 5px;
 }
 
 .sociales{
     width: 100%;
     text-align: center;
     font-size: 28px;
+    
 }
 
 .sociales a{
@@ -100,6 +102,8 @@ footer #iconos{
 @media(min-width:768px){
     .sociales{
         width: auto;
+        padding-bottom: 5px;
+    padding-top: 5px;
     }
     footer .contenedor{
         justify-content: space-between;
@@ -112,7 +116,7 @@ footer #iconos{
     }
 }
 
-p{
+.descrip{
     text-align: center;
     color: #8E9093;
 }
