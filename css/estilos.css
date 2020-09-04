@@ -90,6 +90,10 @@ footer #iconos{
     color:#333;
     text-decoration: none;
 }
+.sociales  :hover{
+    color:orange;
+    
+}
 .title{
     color:#92278F;
     font-size: 30px;
